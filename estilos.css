@@ -66,3 +66,29 @@ nav li a:hover{
     text-shadow: 1px 1px 1px white;
 }
 /* •	Sección con ofertas (con algún recuadro bien definido), que contenga icono, titulo descriptivo y valor. (15 puntos) */
+.text-Ofertas{
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 40px;
+}
+.text-Ofertas-h2{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.text-Ofertas-p{
+    padding-left: 150px;
+
+}
+.contenedor-img{
+    width: 100%;
+    display: flex;
+    justify-content:left;
+}
+.contenedor-img img{
+    width: 20%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+}
