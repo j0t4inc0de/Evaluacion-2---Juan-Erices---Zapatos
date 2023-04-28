@@ -108,8 +108,8 @@ nav li a:hover{
 }
 .contenedor-img img{
     width: 20%;
-    margin-bottom: 15px;
-    border-radius: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
     box-shadow: 6px 6px 6px black;
 }
 .contenedor-img img:hover{
@@ -123,4 +123,24 @@ nav li a:hover{
     font-size: 20px;
     text-shadow: 1px 1px 1px black;
     padding-bottom: 40px;
+}
+/* <!-- •	Crear Footer que contenga link’s de interés, así como también, datos de contacto del local (fono, email, dirección, etc.). (25 puntos)  --> */
+.footer-color{
+    background-color: black;
+}
+.footer{
+    width: auto;
+    padding: 18px;
+}
+.footer ul{
+    list-style-type: none;/*quita la vieñta*/
+}
+.footer li{
+    padding: 2px;
+}
+.footer a{
+    text-decoration: none;
+    color: white; /*color texto*/
+}.footer i{
+    color: white; /*color icono*/
 }
