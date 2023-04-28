@@ -133,14 +133,17 @@ nav li a:hover{
     padding: 18px;
 }
 .footer ul{
-    list-style-type: none;/*quita la vieñta*/
+    list-style-type: none;
 }
 .footer li{
     padding: 2px;
 }
 .footer a{
     text-decoration: none;
-    color: white; /*color texto*/
+    color: white;
 }.footer i{
-    color: white; /*color icono*/
+    color: white;
 }
+
+
+
