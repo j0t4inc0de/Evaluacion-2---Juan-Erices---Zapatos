@@ -6,3 +6,63 @@ body{
     background-color: snow;
     font-family: monospace;
 }
+/* •	Menú de navegación a las diferentes secciones, apuntando a cada una de ellas. (10 puntos) */
+.estilo-h1{
+    font-size: 35px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+nav li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px;
+    background-color: black;
+    margin: 0px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+}
+nav li a:hover{
+    color: black;
+    background-color: white;
+}
+/* •	Imagen principal en le header tipo hero, con su respectivo texto centrado y un color que resalte. (15 puntos) */
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.527)), url(img/fondo\ 1.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text-medium{
+    text-align: center;
+    color: white;
+}
+.text-h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px white;
+}
+/* •	Sección con ofertas (con algún recuadro bien definido), que contenga icono, titulo descriptivo y valor. (15 puntos) */
