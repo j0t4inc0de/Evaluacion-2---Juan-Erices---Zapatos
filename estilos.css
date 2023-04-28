@@ -92,3 +92,35 @@ nav li a:hover{
     border-radius: 10px;
     box-shadow: 6px 6px 6px black;
 }
+/* •	Crear galería que muestre al menos 12 imágenes, repartidas como usted prefiera. Es importante que las imágenes tengan márgenes y bordes bien definidos, además de la propiedad hover. (30 puntos) */
+#galeria{
+    background-color: snow;
+}
+.contenedor2{
+    width: 80%;
+    padding: 10px 0;
+    margin: auto;
+}
+.contenedor-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-img img{
+    width: 20%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+}
+.contenedor-img img:hover{
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+.text-Ofertas-h3{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 40px;
+}
